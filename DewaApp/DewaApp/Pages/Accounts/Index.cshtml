@@ -1,0 +1,25 @@
+﻿@page
+@model DewaApp.Pages.Accounts.IndexModel
+@{
+}
+
+<br>
+<h2> List of Accounts </h2>
+<a class='btn btn-primary btn-sm' href='/Accounts/Create'> New Account </a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>AccountId</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Accounts)
+        {
+            <tr>
+                <td>@item.AccountId</td>
+                <td>@item.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

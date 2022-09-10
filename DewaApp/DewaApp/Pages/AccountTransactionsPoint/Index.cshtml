@@ -1,0 +1,27 @@
+﻿@page
+@model DewaApp.Pages.AccountTransactionsPoint.IndexModel
+@{
+}
+
+<br>
+<h2> List of Account Points </h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>AccountId</th>
+            <th>Name</th>
+            <th>Total Point</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.accountTransactionPoints)
+        {
+            <tr>
+                <td>@item.AccountId</td>
+                <td>@item.Name</td>
+                <td>@item.TotalPoints</td>
+            </tr>
+        }
+    </tbody>
+</table>
