@@ -9,7 +9,7 @@ A simple web application based on Programmer Test from a company in Bandung.
 1. Clone or Download this repository
 2. Create new database
 3. Execute the SQL in ```Tech-test-79/DewaApp/Script_tables.sql``` to create the required tables
-4. Copy the ```ConnectionStrings``` from the database and replace the ```default``` connection string in ```appsettings.json``` with the new one.
+4. Copy the ```ConnectionStrings``` from the database and replace the ```default``` connection string in ```../Tech-test-79/DewaApp/DewaApp/appsettings.json``` with the new one.
 The `appsettings.json` file should be looks like this image.
 ![image](https://user-images.githubusercontent.com/48423286/189476860-cf9f3e62-6229-48f0-9bdf-af4b27052962.png)
 5. Open new terminal and locate the following path
